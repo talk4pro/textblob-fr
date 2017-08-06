@@ -59,7 +59,7 @@ if 'run_tests' in sys.argv:
 
 
 def read(fname):
-    with open(fname) as fp:
+    with open(fname, encoding='utf-8') as fp:
         content = fp.read()
     return content
 
